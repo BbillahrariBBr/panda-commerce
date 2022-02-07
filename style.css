@@ -39,3 +39,9 @@
 .categories img{
     width: 100px;
 }
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
