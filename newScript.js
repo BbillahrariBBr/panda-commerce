@@ -5,6 +5,13 @@ for (tag of h5Tags) {
     //console.log(h5Tag);
 }
 
+//get element by id
 const backpackId = document.getElementById('backpack');
 backpackId.style.backgroundColor = 'tomato';
 // console.log(backpackId);
+
+//get element by class
+const cards = document.getElementsByClassName('card');
+for (crd of cards) {
+    crd.style.borderRadius = '30px';
+}
