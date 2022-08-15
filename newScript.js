@@ -30,3 +30,16 @@ for (bt of btns) {
         event.target.remove();
     })
 }
+// 
+document.getElementById("email").addEventListener('keyup', function (event) {
+    const btnSubmit = document.getElementById('submitBtn');
+    const text = event.target.value;
+    if (text === 'email') {
+        btnSubmit.removeAttribute('disabled');
+    }
+    else {
+        btnSubmit.setAttribute('disabled', true);
+    }
+
+})
+
