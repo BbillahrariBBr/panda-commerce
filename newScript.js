@@ -16,6 +16,9 @@ for (crd of cards) {
     crd.style.borderRadius = '30px';
 }
 
-document.getElementById('click').addEventListener('click', function () {
-    console.log("button click");
-})
+function cnslLog() {
+    console.log("Button Click using onclick");
+}
+// document.getElementById('click').addEventListener('click', function () {
+//     console.log("button click");
+// })
