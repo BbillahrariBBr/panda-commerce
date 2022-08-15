@@ -22,3 +22,11 @@ function cnslLog() {
 // document.getElementById('click').addEventListener('click', function () {
 //     console.log("button click");
 // })
+const btns = document.getElementsByClassName("buy-now-button")
+for (bt of btns) {
+    // console.log(btn);
+    bt.addEventListener('click', function (event) {
+        // event.target.parentNode.removeChild(event.target); // this one also work
+        event.target.remove();
+    })
+}
